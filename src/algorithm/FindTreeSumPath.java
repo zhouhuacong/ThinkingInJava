@@ -10,7 +10,7 @@ public class FindTreeSumPath {
    * 二叉树中和为某一值得路径
    *
    * 1. 我们要把经过的路径上的结点都保存起来，也就是需要一个辅助栈stack;
-   * 2. 通过前序遍历找到末尾节点，当发现是叶子节点时判断是否总和是否是给定值sum；如果是即找到一条路径
+   * 2. 通过前序遍历找到末尾节点，当发现是叶子节点时判断stack的总和是否是给定值sum；如果是即找到一条路径
    * 3. 当遍历到根节点，发现不是符合要求的路径时，要从stack中pop()出当前节点。
    */
   public static void findPath(TreeNode<Integer> node, int sum) {

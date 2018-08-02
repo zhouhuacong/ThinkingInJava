@@ -18,9 +18,9 @@ public class RebuildBinaryTree {
     TreeNode root = rebuild(pre, in);
     //对重建后的树,进行前中后序遍历，验证是否重建正确
     //调用的重建函数见：http://www.jianshu.com/p/362d4ff42ab2
-    List<Integer> preorder = TraverseBinaryTree.preorderRecursively(root);
-    List<Integer> inorder = TraverseBinaryTree.inorderRecursively(root);
-    List<Integer> postorder = TraverseBinaryTree.postorderRecursively(root);
+    List<Integer> preorder = TraverseBinaryTree.preOrderRecursively(root);
+    List<Integer> inorder = TraverseBinaryTree.inOrderRecursively(root);
+    List<Integer> postorder = TraverseBinaryTree.postOrderRecursively(root);
     System.out.println(preorder);
     System.out.println(inorder);
     System.out.println(postorder);
