@@ -6,43 +6,26 @@ public class StackPushPopOrder {
 
   /**
    * 栈的压入，弹出序列
-   * 1. 需要用到一个辅助栈
-   * 2. 压入顺序通过给定的压入pushOrder数组，但是压入的目标数字是有popOrder给出的。
-   * 压入{1,2,3,4,5}, 出栈{4,5,3,2,1}
    * <p>
-   * 2.1 我们先找到要出栈的数字4，然后根据压栈序列，我们要压入1,2,3,4；然后弹出4
-   * 2.2 再找到出栈数字5，所以再压入5，后弹出5
-   * 2.3 再找3, 但是由于目前栈顶已经是3了，直接弹出。之后的2,1同理。
-   *
-   * @param pushOrder 压栈序列
-   * @param popOrder  出栈序列
-   * @return 出栈序列是否合法
+   * 因为有入栈序列，所以从入栈开始，遍历入栈序列
+   * 1. 遍历入栈序列时，每遍历一个，就判断是否是出栈序列中的需要弹出的值，
+   * 2. 如果是则弹出，然后出栈序列加一，接着继续根据入栈序列添加（for循环继续）
+   * 3. 如果不是，则继续根据入栈序列添加，直到匹配出栈序列需要的数字为止
+   * 4. 如果遍历完都发现没有匹配的，则该出栈序列不是合法出栈序列
    */
-  public static boolean isValidOrder(int pushOrder[], int popOrder[]) {
-    if (pushOrder == null || popOrder == null || pushOrder.length != popOrder.length)
+  public static boolean isPopValid(int[] pushOrder, int[] popOrder) {
+    if (pushOrder.length == 0 || popOrder.length == 0 || pushOrder.length != popOrder.length)
       return false;
-
-    int len = popOrder.length;
     Stack<Integer> stack = new Stack<>();
-    for (int popNum : popOrder) {
-      int pushIndex = 0;
-      for (int j = 0; j < len; j++) {
-        if (popNum == pushOrder[j]) {
-          pushIndex = j;
-          break;
-        }
+    int j = 0;
+    for (int current : pushOrder) {
+      stack.push(current);
+      while ((!stack.empty()) && (stack.peek() == popOrder[j])) {
+        stack.pop();
+        j++;
       }
-
-      for (int n = 0; n < pushIndex; n++) {
-        stack.push(pushOrder[n]);
-      }
-      if (stack.peek() != popNum)
-        break;
-
-      stack.pop();
     }
     return stack.empty();
-
   }
 
   public static void main(String[] args) {
@@ -53,8 +36,9 @@ public class StackPushPopOrder {
     stack.push(4);
     stack.push(5);
     int push[] = {1, 2, 3, 4, 5};
-    int pop[] = {4, 5, 3, 2, 1};
-    boolean is = isValidOrder(push, pop);
-    System.out.println("is valid : " + is);
+//    int pop[] = {4, 5, 3, 2, 1};
+    int pop[] = {3, 4, 2, 1, 5};
+    boolean is3 = isPopValid(push, pop);
+    System.out.println("is valid : " + is3);
   }
 }
