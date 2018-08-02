@@ -1,4 +1,4 @@
-package cuncurrency.garden;
+package ThinkInJava.cuncurrency.garden;
 
 import java.util.ArrayList;
 import java.util.List;

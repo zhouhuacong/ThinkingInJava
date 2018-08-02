@@ -1,4 +1,4 @@
-package cuncurrency;
+package ThinkInJava.cuncurrency;
 
 import java.io.IOException;
 import java.io.InputStream;
