@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fb3a5e8-3563-48ea-bcb6-9c6a1a482dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/BinaryTreeTranversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/FindTreeSumPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/BinaryTreeDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/BinaryTreeDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/LastNumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/LastNumK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/LinkedNodeFirstCoverNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/LinkedNodeFirstCoverNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/RebuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/RebuildBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/StackPushPopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/StackPushPopOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/TraverseBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/TraverseBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/TwoStackImplQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/TwoStackImplQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/base/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/base/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/base/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/base/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeTranversal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/BinaryTreeTranversal.java">
+      <file leaf-file-name="BinaryTreeTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/BinaryTreeTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="253">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +75,8 @@
       <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/base/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="54">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -95,56 +84,20 @@
       <file leaf-file-name="StackPushPopOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/StackPushPopOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="290">
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraverseBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/TraverseBinaryTree.java">
+      <file leaf-file-name="FindTreeSumPath.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/FindTreeSumPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="198">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JumpFloor2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/JumpFloor2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThininJava.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ThinkInJava/ThininJava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RebuildBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/RebuildBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-304">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedNodeFirstCoverNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/LinkedNodeFirstCoverNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -204,6 +157,8 @@
         <option value="$PROJECT_DIR$/src/ThinkInJava/ThininJava.java" />
         <option value="$PROJECT_DIR$/src/algorithm/RebuildBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/algorithm/BinaryTreeTranversal.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/BinaryTreeTraversal.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/FindTreeSumPath.java" />
       </list>
     </option>
   </component>
@@ -217,10 +172,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="405" />
-    <option name="y" value="23" />
-    <option name="width" value="1257" />
-    <option name="height" value="910" />
+    <option name="x" value="-1068" />
+    <option name="y" value="-841" />
+    <option name="width" value="1051" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -245,13 +200,6 @@
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -293,9 +241,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeTraversal">
+  <component name="RunManager" selected="Application.FindTreeSumPath">
     <configuration name="BinaryTreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.BinaryTreeTraversal" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FindTreeSumPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.FindTreeSumPath" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -310,16 +268,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RebuildBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.RebuildBinaryTree" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +293,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.RebuildBinaryTree" />
       <item itemvalue="Application.ReverseLinkedList" />
       <item itemvalue="Application.LastNumK" />
       <item itemvalue="Application.StackPushPopOrder" />
       <item itemvalue="Application.BinaryTreeTraversal" />
+      <item itemvalue="Application.FindTreeSumPath" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTreeSumPath" />
         <item itemvalue="Application.BinaryTreeTraversal" />
         <item itemvalue="Application.StackPushPopOrder" />
         <item itemvalue="Application.LastNumK" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.RebuildBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -378,15 +326,15 @@
       <workItem from="1532966671687" duration="44000" />
       <workItem from="1533038786393" duration="9415000" />
       <workItem from="1533124455257" duration="8053000" />
-      <workItem from="1533175630829" duration="3465000" />
+      <workItem from="1533175630829" duration="5601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31667000" />
+    <option name="totallyTimeSpent" value="33803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="23" width="1257" height="910" extended-state="0" />
+    <frame x="-1068" y="-841" width="1051" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -398,12 +346,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34303796" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16648291" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3556338" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35443038" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24115226" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29038653" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291714" />
       <window_info anchor="right" id="SciView" />
@@ -618,23 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/StackPushPopOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/TraverseBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/base/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -643,13 +574,6 @@
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#147#148#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/base/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -670,10 +594,44 @@
     <entry file="file://$PROJECT_DIR$/ThinkingInJava.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/BinaryTreeTranversal.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/BinaryTreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="253">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/TraverseBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/StackPushPopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/base/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/FindTreeSumPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
