@@ -1,7 +1,5 @@
 package algorithm;
 
-import algorithm.base.TreeNode;
-
 public class BinarySearchTreePostOrder {
 
   /**
